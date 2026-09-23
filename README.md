@@ -7,5 +7,3 @@ As a team from Marlborough College Malaysia in the F1 in Schools campaign, Andur
 ![Screenshot 2024-08-14 at 10 41 38 PM](https://github.com/user-attachments/assets/8a7f12f1-ed80-4a94-9248-92eb4d7626d2)
 
 *This is the official website for ANDÚRIL RACING, an F1 in Schools team from Malaysia.*
-
-
