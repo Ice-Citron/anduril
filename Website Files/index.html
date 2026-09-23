@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ANDÚRIL | F1 in Schools</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/tab-icon.png">
     <script src="gallery.js" defer></script>
 </head>
 
 <body>
     <nav class="menu">
         <ul>
-            <li><a href="#" target="_self"><img class="logo-menu" src="assets/img/Andúril Red@4x.png" alt="Logo"></a></li>
+            <li><a href="#" target="_self"><img class="logo-menu" src="assets/img/Anduril Red@4x.png" alt="Logo"></a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#team">Our Team</a></li>
+            <li><a href="#work">Our Work</a></li>
             <li><a href="#sponsors">Sponsors</a></li>
             <li><a href="#faq">FAQ's</a></li>
         </ul>
@@ -24,7 +26,7 @@
         <section id="opening-image">
             <img class="team-photo" src="assets/img/Copy of IMG_2571.JPG">
             <div class="overlay"></div>
-            <img class="sword" src="assets/img/Andúril Sword@4x.png">
+            <img class="sword" src="assets/img/Anduril Sword@4x.png">
             <h1>F1 in Schools</h1>
         </section>
 
@@ -32,6 +34,7 @@
             <div>
                 <img class="matrix-overlay" src="assets/img/custom-white-matrix.png">
                 <h1>Who we are</h1>
+                <div class="underline"></div>
                 <p>As a team from Marlborough College Malaysia in the F1 in Schools campaign, Anduril will be a competitor in various competitions around Malaysia such as the Johor State Finals in late June and with the FOBISIA Malaysian Schools in Q4 this year. We will be exposed to thousands of national and international judges and fellow competitors around the country, as well as the sole provider for the track and racing competition for Marlborough College Malaysia for future races.</p>
                 <img class="render" src="assets/img/FRONT RENDER Extended.png">
             </div>
@@ -40,27 +43,129 @@
         <section id="team">
             <div class="teamoverlay"></div>
             <h1>Meet our Team</h1>
-            <div class="wrapper">
-                <button id="left">&lt;</button>
-                <div class="carousel">
-                    <img src="assets/img/teambg.png">
-                    <img src="assets/img/pfp.jpg">
-                    <img src="assets/img/pfp.jpg">
-                    <img src="assets/img/pfp.jpg">
-                    <img src="assets/img/pfp.jpg">
-                    <img src="assets/img/teambg.png">
+            <div id="slider" class="slider">
+                <div class="wrapper">
+                    <div id="slides" class="slides">
+                        <span class="slide"><img src="assets/img/jolie.png"></span>
+                        <span class="slide"><img src="assets/img/hengjun.png"></span>
+                        <span class="slide"><img src="assets/img/jane.png"></span>
+                        <span class="slide"><img src="assets/img/shihao.png"></span>
+                        <span class="slide"><img src="assets/img/louis.png"></span>
+                        <span class="slide"><img src="assets/img/samson.png"></span>
+                    </div>
                 </div>
-                <button id="right">&gt;</button>
+                <a id="prev" class="control prev"></a>
+                <a id="next" class="control next"></a>
+              </div>
+        </section>   
+
+        <section id="work">
+            <h1>Our Work</h1>
+            <div class="underline"></div>
+            <div class="work-content">
+                <div class="work-item" id="track">
+                    <img src="assets/img/track.png">
+                    <div class="overlay"><p class="text">Track Manufacturing</p></div>
+                </div>
+                <div class="work-item">
+                    <img src="assets/img/manufacturing.png">
+                    <div class="overlay"><p class="text">Car Manufacturing</p></div>
+                </div>
+                <div class="work-item">
+                    <img src="assets/img/partnerships.png">
+                    <div class="overlay"><p class="text">Parternships</p></div>
+                </div>
+                <div class="work-item">
+                    <img src="assets/img/cfd.png">
+                    <div class="overlay"><p class="text">CFD</p></div>
+                </div>
+                <div class="work-item">
+                    <img src="assets/img/cyberstation.png">
+                    <div class="overlay"><p class="text">Concept Art and Renders</p></div>
+                </div>
+                <div class="work-item">
+                    <img src="assets/img/green.png">
+                    <div class="overlay"><p class="text">Anduril Green</p></div>
+                </div>
+
+                <!-- hidden gallery -->
+                <div class="gallery-overlay hidden" id="gallery-overlay">
+                    <div class="gallery-container" id="gallery1">
+                        <div class="gallery">
+                            <img src="assets/img/gallery/track/track1.JPG" class="gallery-item">
+                            <img src="assets/img/gallery/track/track2.jpg" class="gallery-item">
+                            <img src="assets/img/gallery/track/track3.jpg" class="gallery-item">
+                            <img src="assets/img/gallery/track/track4.jpg" class="gallery-item">
+                            <img src="assets/img/gallery/track/track5.png" class="gallery-item">
+                            <img src="assets/img/gallery/track/track6.png" class="gallery-item">
+                            <img src="assets/img/gallery/track/track7.png" class="gallery-item">
+                        </div>
+                    </div>
+
+                    <div class="gallery-container" id="gallery2">
+                        <div class="gallery">
+                            <img src="assets/img/gallery/car/car1.png" class="gallery-item">
+                            <img src="assets/img/gallery/car/car2.png" class="gallery-item">
+                            <img src="assets/img/gallery/car/car3.png" class="gallery-item">
+                            <img src="assets/img/gallery/car/car4.png" class="gallery-item">
+                            <img src="assets/img/gallery/car/car5.png" class="gallery-item">
+                        </div>
+                    </div>
+
+                    <div class="gallery-container" id="gallery3">
+                        <div class="gallery">
+                            <img src="assets/img/gallery/patnerships/partnership1.png" class="gallery-item">
+                            <img src="assets/img/gallery/patnerships/partnership2.png" class="gallery-item">
+                            <img src="assets/img/gallery/patnerships/partnership3.png" class="gallery-item">
+                            <img src="assets/img/gallery/patnerships/partnership4.png" class="gallery-item">
+                            <img src="assets/img/gallery/patnerships/partnership5.png" class="gallery-item">
+                            <img src="assets/img/gallery/patnerships/partnership6.png" class="gallery-item">
+                        </div>
+                    </div>
+
+                    <div class="gallery-container" id="gallery4">
+                        <div class="gallery">
+                            <img src="assets/img/gallery/cfd/cfd1.png" class="gallery-item">
+                            <img src="assets/img/gallery/cfd/cfd2.png" class="gallery-item">
+                            <img src="assets/img/gallery/cfd/cfd3.png" class="gallery-item">
+                        </div>
+                    </div>
+
+                    <div class="gallery-container" id="gallery5">
+                        <div class="gallery">
+                            <img src="assets/img/gallery/renders/render1.png" class="gallery-item">
+                            <img src="assets/img/gallery/renders/render2.png" class="gallery-item">
+                            <img src="assets/img/gallery/renders/render5.jpg" class="gallery-item">
+                            <img src="assets/img/gallery/renders/render6.png" class="gallery-item">
+                            <img src="assets/img/gallery/renders/render7.png" class="gallery-item">
+                        </div>
+                    </div>
+
+                    <div class="gallery-container" id="gallery6">
+                        <div class="gallery">
+                            <img src="assets/img/gallery/green/green1.png" class="gallery-item">
+                            <img src="assets/img/gallery/green/green2.JPG" class="gallery-item">
+                        </div>
+                    </div>
+
+                    <button class="prev-work">&#10094;</button>
+                    <button class="next-work">&#10095;</button>
+                </div>
             </div>
-        </section>
+            
+        </section>   
 
         <section id="sponsors">
-            <div>
-                <h1>Our Sponsors</h1>
-                <div class="sponsors-container">
-                    <a href="https://www.southamptonmalaysia.edu.my/" target="_blank"><img src="assets/img/southhampton.png"></a>
-                    <a href="https://www.reading.edu.my/" target="_blank"><img src="assets/img/reading.png"></a>
-                    <a href="https://www.reading.edu.my/schools/henley-business-school" target="_blank"><img src="assets/img/henley.png"></a>
+            <div class="sponsors-page-container">
+                <div class="header-container">
+                    <h1>Our Sponsors</h1>
+                    <div class="h2-container"><h2>Gold Sponsors</h2></div>
+                </div>
+                <div class="sponsors-container-gold">
+                    <div class="grid-item"><a href="https://www.southamptonmalaysia.edu.my/" target="_blank"><img src="assets/img/southhampton.png"></a></div>
+                    <div class="grid-item"><a href="https://www.reading.edu.my/schools/henley-business-school" target="_blank"><img src="assets/img/henley.png"></a></div>
+                    <div class="grid-item"><a href="https://www.marlboroughcollegemalaysia.org/" target="_blank"><img src="assets/img/mcm.png"></a></div>
+                    <div class="grid-item"><a href="https://www.noscoasia.com/" target="_blank"><img src="assets/img/nosco-asia.png"></a></div>
                 </div>
             </div>
         </section>
@@ -114,7 +219,7 @@
                     </button>
                     <div class="accordion-content">
                         <p>
-                            At first you must visit your country's F1 in Schools website. <br><br>
+                            First you must visit your country's F1 in Schools website. <br><br>
                             The next step is to see how F1 in Schools is run in your country and read through all of the information specific to you, you can then get started on the challenge and register to compete at a competition.
                         </p>
                     </div>
@@ -143,14 +248,16 @@
             </div>
         </section>
 
-        <section id="copyright">
-            <img class="silver-logo" src="assets/img/Andúril Silver@4x.png">
+        <section id="contact">
+            <img class="silver-logo" src="assets/img/Anduril Silver@4x.png">
             <p>Copyright &copy; 2024 - Anduril</p>
             <img class="matrix-copyright" src="assets/img/Asset 1@4x white.png">
         </section>
-
     </div>
+
+    <script src="menu.js"></script>
     <script src="faq.js"></script>
+    <script src="work-gallery.js"></script>
 </body>
 
 </html>
