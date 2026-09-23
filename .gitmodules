@@ -1,0 +1,6 @@
+[submodule "Anduril-Design"]
+	path = Anduril-Design
+	url = https://github.com/Ice-Citron/Anduril-Design.git
+[submodule "Anduril-CFD-and-Manufacturing"]
+	path = Anduril-CFD-and-Manufacturing
+	url = https://github.com/Ice-Citron/Anduril-CFD-and-Manufacturing.git
