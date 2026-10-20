@@ -75,18 +75,6 @@ We then prepared separate files for the CNC body and resin wings. The project po
 
 *Physical car models and workshop work from the team project.*
 
-### Track and test equipment
-
-We built a 20-metre pine track with support from the school’s Estates team. The work included track joints and the assembly of the track on reused tables.
-
-Our electronics engineer developed an Arduino timer with a C++ program. Laser sensors and photoreceptors detected the car at the start and finish.
-
-The gas launcher used a design by TeachingTech, as credited in the project portfolio.
-
-These systems gave the school equipment for future F1 in Schools teams.
-
-[View the track photographs](<Website Files/assets/img/gallery/track/>)
-
 ## My contribution and the team
 
 I am Shi Hao Ng. I was the project manager and general engineer for ANDÚRIL RACING.
@@ -108,20 +96,6 @@ Louis Gan and I produced the project portfolio in Adobe Illustrator.
 
 The [project portfolio](PROJECT_PORTFOLIO.pdf) gives more detail about each role and our work with external partners.
 
-## Team website
-
-The public website presents the team and its work:
-
-**[Visit andurilracing.com](https://andurilracing.com/)**
-
-The source uses HTML, CSS, and JavaScript. It includes:
-
-- A team member carousel.
-- Project galleries with images and videos.
-- Sponsor information.
-- An expandable FAQ section.
-- Navigation links to each page section.
-
 ### Website files
 
 | File or folder | Purpose |
@@ -135,29 +109,19 @@ The source uses HTML, CSS, and JavaScript. It includes:
 | [`assets/img/`](<Website Files/assets/img/>) | Photographs, renders, and graphic assets. |
 | [`assets/fonts/`](<Website Files/assets/fonts/>) | Local font files. |
 
-### Preview the website locally
+### Track and test equipment
 
-With Python 3 installed, run this command from the repository root:
+We built a 20-metre pine track with support from the school’s Estates team. The work included track joints and the assembly of the track on reused tables.
 
-```bash
-python3 -m http.server 8000 --bind 127.0.0.1 --directory "Website Files"
-```
+Our electronics engineer developed an Arduino timer with a C++ program. Laser sensors and photoreceptors detected the car at the start and finish.
 
-Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
+The gas launcher used a design by TeachingTech, as credited in the project portfolio.
 
-Press `Ctrl+C` in the terminal to stop the server.
+These systems gave the school equipment for future F1 in Schools teams.
 
-The website has no package installation or build step. You can preview it without the engineering submodules.
+[View the track photographs](<Website Files/assets/img/gallery/track/>)
 
 ## Sponsorship and partnerships
-
-The [Sponsorship Letters folder](<Sponsorship Letters/>) contains materials from our sponsor outreach:
-
-- [English proposal template](<Sponsorship Letters/Email - English for corporations.docx>) — For companies.
-- [Bahasa Melayu proposal template](<Sponsorship Letters/Email - Bahasa Melayu for City Council, Govt Agencies, etc,.docx>) — For councils and government agencies.
-- [Sponsorship tiers](<Sponsorship Letters/Sponsorship - Tiers (FINAL for 23_7_2024).xlsx>) — Our proposed contribution levels and sponsor benefits.
-
-The project portfolio records the support we received:
 
 | Organisation | Support |
 |---|---|
@@ -165,25 +129,6 @@ The project portfolio records the support we received:
 | University of Southampton Malaysia | CFD assistance and access to resin print facilities. |
 | Nosco Asia | CNC supplier coordination, banner production, and transport support. |
 | University of Reading Malaysia | Advice on sponsorship and project management. |
-
-## Get the complete project
-
-To download this repository and both engineering submodules:
-
-```bash
-git clone --recurse-submodules https://github.com/Ice-Citron/anduril.git
-cd anduril
-```
-
-If you already cloned this repository, run this command from its root:
-
-```bash
-git submodule update --init --recursive
-```
-
-This downloads the submodule commits recorded by the main repository.
-
-Each engineering repository has its own README with details about its files.
 
 ## Repository structure
 
